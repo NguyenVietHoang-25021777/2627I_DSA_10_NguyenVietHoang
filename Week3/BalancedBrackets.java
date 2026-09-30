@@ -25,7 +25,7 @@ class Result {
             if (!dic.containsKey(ch)) {
                 stack.push(ch);
             } else {
-                if (stack.size() == 0 | !stack.pop().equals(dic.get(ch))) {
+                if (stack.size() == 0 || !stack.pop().equals(dic.get(ch))) {
                     return "NO";
                 }
             }
