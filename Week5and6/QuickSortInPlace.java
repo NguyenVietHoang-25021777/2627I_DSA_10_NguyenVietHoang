@@ -1,5 +1,4 @@
-package Week5;
-import java.io.*;
+package Week5and6;
 import java.util.*;
 
 public class QuickSortInPlace {
